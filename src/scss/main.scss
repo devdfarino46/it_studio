@@ -1,0 +1,47 @@
+@import 'base/reset';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+img {
+    object-fit: contain;
+    object-position: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.picture {
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1113px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba($color: #6f6f6f, $alpha: 0.25);
+    border-radius: 30px;
+    display: flex;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    justify-content: center
+}
+
+@import 'components/nav';
+@import 'components/header';
+@import 'components/content';
+@import 'components/footer';

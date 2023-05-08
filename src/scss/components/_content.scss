@@ -1,0 +1,333 @@
+.content__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__text-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.content__section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    max-width: 739px;
+}
+
+.content__section-descr {
+    max-width: 730px;
+    text-align: center;
+}
+
+.content__section-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+
+.content__section-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+
+// Services Section
+.content__services-section {
+    padding: 110px 0 105px;
+}
+
+.content__services-title {
+    margin-bottom: 50px;
+}
+
+.content__services-descr {
+    margin-bottom: 70px;
+}
+
+.content__services-items-wrapper {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 55px;
+}
+
+.content__services-item {
+    display: flex;
+    column-gap: 18px;
+}
+
+.content__services-item-img-wrapper {
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 100ch;
+    height: fit-content;
+}
+
+.content__services-item-img {
+    display: block;
+    padding: 25px;
+    border: 1px solid #4985FF;
+    border-radius: 100ch;
+}
+
+.content__services-item-text-wrapper {
+    margin-top: 46px;
+    max-width: 222px;
+}
+
+.content__services-item-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+// About Us Section
+.content__about_us-section {
+    padding: 100px 0 70px;
+    background-color: #F6F6F8;
+}
+
+.content__about_us-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 70px;
+}
+
+.content__about_us-text-wrapper {
+    max-width: 489px;
+}
+
+.content__about_us-title {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.content__about_us-descr {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.content__about_us-picture {
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba($color: #6F6F6F, $alpha: 0.25);
+}
+
+.content__about_us-items-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.content__about_us-item-icon {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.content__about_us-item-num {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    vertical-align: middle;
+}
+
+
+// All Services Section
+.content__all_services-section {
+    padding: 100px 0 85px;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+    background-size: 100% 490px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.content__all_services-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.content__all_services-title {
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.content__all_services-items-wrapper {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.content__all_services-item-picture {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content__all_services-item-title {
+    margin-bottom: 30px;
+}
+
+.content__all_services-item-title-num {
+    color: #4985FF;
+}
+
+.content__all_services-item-descr {
+    margin-bottom: 30px;
+}
+
+
+// All Projects Section
+.content__all_projects-section {
+    padding: 100px 0 130px;
+    background-color: #F6F6F8;
+}
+
+.content__all_projects-title {
+    color: #000000;
+    margin-bottom: 50px;
+    max-width: 350px;
+}
+
+.content__all_projects-descr {
+    margin-bottom: 70px;
+}
+
+.content__all_projects-pictures-wrapper {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.content__all_projects-picture {
+    border-radius: 10px;
+}
+
+
+// Video Section
+.content__video-section {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        top: 0; left: 0; right: 0;
+        height: 570px;
+        background-color: rgba($color: #ffffff, $alpha: 0.15);
+        background-image: url("../img/header-bg.jpg");
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+    }
+
+    * {
+        z-index: 1;
+        position: relative;
+    }
+}
+
+.content__video-container {
+    padding-top: 70px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.content__video-title {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.content__viceo-descr {
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.content__video-wrapper {
+    padding: 165px 335px;
+    box-shadow: 0 0 10px rgba($color: #6F6F6F40, $alpha: 0.25);
+    border-radius: 10px;
+    background-image: url("../img/video-bg@1024.jpg");
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    background-size: cover;
+    background-position: center;
+}
+
+.content__video-play-btn {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100ch;
+    color: #FFFFFF;
+}
+
+.content__video-play-btn-icon {
+    margin-right: 21px;
+}
+
+
+// Subscribe Section
+.content__subscribe-section {
+    padding: 85px 0;
+}
+
+.content__subscribe-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.content__subscribe-descr {
+    margin-bottom: 30px;
+}
+
+.content__subscribe-form {
+    margin-bottom: 35px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba($color: #6f6f6f, $alpha: 0.25);
+    border-radius: 30px;
+    height: 45px;
+}
+
+.content__subscribe-form-input {
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+    width: 299px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+}
+
+.content__subscribe-form-submit {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 190px;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+
+.content__subscribe-note {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}

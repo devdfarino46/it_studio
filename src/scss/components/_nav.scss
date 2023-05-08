@@ -1,0 +1,31 @@
+.nav {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    border-bottom: 1px solid rgba($color: #A1A1A1, $alpha: 0.5);
+}
+
+.nav__container {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 40px;
+}
+
+.nav__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 99px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    &--this_page::after {
+        content: '';
+        position: absolute;
+        left: -20px; right: -20px; bottom: 0;
+        height: 2px;
+        background-color: #FFFFFF;
+    }
+}
