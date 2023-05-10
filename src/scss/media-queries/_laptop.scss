@@ -1,0 +1,79 @@
+@media screen and (max-width: 1153px) {
+    .header {
+        height: fit-content;
+        padding-bottom: 120px;
+    }
+
+    .content__services-items-wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .content__services-item-text-wrapper {
+        max-width: 450px;
+    }
+
+    .content__about_us-main-wrapper {
+        flex-direction: column-reverse;
+        row-gap: 45px;
+    }
+
+    .content__about_us-text-wrapper {
+        align-items: center;
+    }
+
+    .content__about_us-title {
+        text-align: center;
+    }
+
+    .content__about_us-descr {
+        text-align: center;
+    }
+
+    .content__about_us-items-wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .content__all_services-section {
+        background: none;
+    }
+
+    .content__all_services-title-wrapper {
+        flex-direction: column;
+    }
+
+    .content__all_services-title {
+        align-self: center;
+        text-align: center;
+        color: #323232;
+        margin-bottom: 40px;
+    }
+
+    .content__all_services-items-wrapper {
+        flex-direction: column;
+    }
+
+    .content__all_services-item {
+        flex-direction: row;
+        width: auto;
+        column-gap: 30px;
+    }
+
+    .content__all_projects-pictures-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+
+    .content__video-wrapper {
+        width: unset;
+        align-self: stretch;
+    }
+
+    .footer__main-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+    }
+}

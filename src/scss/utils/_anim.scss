@@ -1,0 +1,11 @@
+.nav {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav__open-btn {
+    transition: rotate 0.3s ease-in-out;
+}
+
+.nav__container {
+    transition: height 0.3s ease-in-out;
+}

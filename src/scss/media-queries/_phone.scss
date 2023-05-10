@@ -1,0 +1,88 @@
+@media screen and (max-width: 700px) {
+    .nav__open-btn {
+        display: flex;
+    }
+
+    .nav__container {
+        flex-direction: column;
+        align-items: flex-start;
+
+        &--opened {
+            background-color: #323232;
+
+            .nav__link {
+                display: flex;
+            }
+        }
+    }
+
+    .nav__link {
+        display: none;
+
+        &--this_page {
+            display: flex;
+        }
+
+        &--this_page::after {
+            display: none;
+        }
+    }
+
+    .content__about_us-picture {
+        width: 300px;
+        height: auto;
+    }
+
+    .content__services-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__section-item-title {
+        text-align: center;
+    }
+
+    .content__services-item-descr {
+        text-align: center;
+    }
+
+    .content__all_services-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__all_services-item-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content__all_projects-pictures-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__subscribe-form {
+        flex-direction: column;
+        align-items: stretch;
+        height: unset;
+    }
+
+    .content__subscribe-form-input {
+        height: 45px;
+    }
+
+    .content__subscribe-form-submit {
+        border-radius: 30px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width: unset;
+        height: 45px;
+    }
+
+    .footer__main-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}

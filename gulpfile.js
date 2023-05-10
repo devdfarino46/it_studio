@@ -1,4 +1,4 @@
-const {src, dest, series, parallel, watch} = require('gulp');
+const { src, dest, series, parallel, watch } = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
@@ -59,7 +59,7 @@ function scripts() {
 
 function optimizeImages() {
     return src("dist/img/**/*")
-        .pipe(imagemin({verbose: true}))
+        .pipe(imagemin({ verbose: true }))
         .pipe(dest("dist/img/"));
 }
 
